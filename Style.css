@@ -1,10 +1,27 @@
-.body {
+body {
     background-color: green;
+    background-image: url(https://i.natgeofe.com/k/053d2f8e-f28e-4e78-9680-fe35ed7b635d/jamaica-beach_16x9.jpg?w=1200);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Background image stays fixed in the viewport */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    height: 100%; 
 }
 
 header {
     text-align: center;
     background-image: url(https://trippystore.com/cdn/shop/products/posters-bob-marley-weed-leaf-poster-101403-29766063783989.jpg?v=1624176938);
-    font-size: 250px;
+    font-size: 190px;
+    color: black;
+    justify-content: center;
+    
+    
 
+}
+
+span { 
+    color: red;
+    font-family:serif ;
 }
